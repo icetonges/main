@@ -1,107 +1,42 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<!-- Basic CSS Example -->
+<html>
 
-<html lang="en-us">
 <head>
-  <meta charset="UTF-8">
-  <title>Basic CSS Example</title>
-
-  <!-- Introducing the Style Tag! -->
-  <!-- ========================== -->
-
-  <!-- Now you can customize the look of your sites. Each rule in the style tag changes the appearance of elements matching the selector -->
-<style>
-  /*
-    NOTE: Commenting is a bit different in CSS. 
-    They start with forward-slash + asterisk 
-    and end with back-slash + asterisk.
-    */
-
-  /* h1 heading tag */
-  h1 {
-    /* Put a 15-pixel margin at the bottom of the heading. */
-    margin-bottom: 15px;
-    /* Change the size of your font to 60 pixels high. */
-    font-size: 60px;
-    /* This will color the heading font white. */
-    color: white;
-    /* Align the text to the center of its enclosing element (e.g. div). */
-    text-align: center;
-    /* Underline the text. */
-    text-decoration: underline;
-    /* The background of the heading element will now be black. */
-    background-color: black;
-  }
-
-  /* h2 heading tags */
-  h2 {
-    /* Put a 15-pixel margin at the top of all h2 headings. */
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 40px;
-    text-align: center;
-  }
-
-  /* h3 heading tags */
-  h3 {
-    margin-top: 15px;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  /* All img tags */
-  img {
-    /* 
-      Center a block element in the middle of its enclosing tag.
-      When you use the "auto" rule on both left and right margins, 
-      your browser will do the math necessary to center a block element.
-      */
-    margin-left: auto;
-    margin-right: auto;
-    /* Block display (more on this later) */
-    display: block;
-  }
-
-  /* All p tags */
-  p {
-    text-align: center;
-    font-size: 20px;
-    /* Bold the text. */
-    font-weight: bold;
-  }
-
-  /* All unordered list tags */
-  ul {
-    text-align: center;
-    font-size: 35px;
-    /* Give an element a solid border. */
-    border-style: solid;
-    /* Render the border 5 pixels thick. */
-    border-width: 5px;
-    /* Include bullets in the content flow. */
-    /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
-    list-style-position: inside;
-  }
-</style>
+    <meta charset="UTF-8"
+    <meta name="viewpoint" contend="width=device-width",initial-scale=1.0">
+    <title>This is Peter's Bio Page in GitHub</title>
 </head>
 
 <body>
+    <h1>
+        This is the Title
+    </h1>
+    <h2>
+        Working Experience
+    </h2>
+    <h3>
+        <strong><i>OK</i></strong>
+    </h3>
+    <ol>
+        <li>Google</li>
+        <li>YouTube</li>
+    </ol>
+    <br>
+    <ul>
+        <li>GitHub</li>
+        <li>GitLab</li>
+    </ul>
+    <a href = "https://www.youtube.com/watch?v=mkv5mxYu0Wk" target="target">This is Data Science Course Link</a>
+    <br>
+    <br>
 
-  <h1>Awesome Header</h1>
-  <h2>Smaller Awesome Header</h2>
-  <h3>Even Smaller Header</h3>
+<div class='tableauPlaceholder' id='viz1588378522359' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;Citi_15824261544430&#47;CitiBikeJan2020&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Citi_15824261544430&#47;CitiBikeJan2020' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;Citi_15824261544430&#47;CitiBikeJan2020&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1588378522359');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2477px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br>
+    <!-- <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZPININk_Yn5r-gp4ZfxD1FjlIN-QKUM3v5hqmS_lvbgQFsV0&s", alt="Random Pciture"> -->
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequatur unde aut dolores odio hic, accusamus recusandae ipsam illum enim voluptatibus obcaecati totam tempora eum quod sapiente. Corporis, quidem, culpa?</p>
-  <img src="https://pbs.twimg.com/media/BsgYfMQCQAAWVKH.jpg" alt="Awesome" width="25%">
-
-  <h3>Menu Links</h3>
-  <ul>
-    <li><a href="https://www.google.com">Google</a></li>
-    <li><a href="https://www.facebook.com">Facebook</a></li>
-    <li><a href="https://www.twitter.com">Twitter</a></li>
-  </ul>
-
+    <a href="https://www.youtube.com/" target="target"> <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZPININk_Yn5r-gp4ZfxD1FjlIN-QKUM3v5hqmS_lvbgQFsV0&s", alt="Random Pciture"></a>
 </body>
 
 </html>
